@@ -19,7 +19,7 @@ justify-center
 `,children:[(0,j.jsx)(`nav`,{className:`
 w-[92%]
 max-w-7xl
-bg-[#BFA987]/95
+bg-[#D6C2A3]/95
 backdrop-blur-xl
 rounded-full
 border
@@ -53,7 +53,7 @@ justify-center
 w-full
 h-full
 object-contain
-`})}),(0,j.jsxs)(`span`,{children:[`Apex Tree`,(0,j.jsx)(`span`,{className:`text-[#5A3A1F] ml-1`,children:`Service`})]})]}),(0,j.jsxs)(`div`,{className:`
+`})}),(0,j.jsxs)(`span`,{children:[`Apex Tree`,(0,j.jsx)(`span`,{className:`text-[#4A2F18] ml-1`,children:`Service`})]})]}),(0,j.jsxs)(`div`,{className:`
 hidden
 lg:flex
 items-center
@@ -69,7 +69,7 @@ transition-all
 duration-300
 
 
-${n===t?`bg-[#6B4226] text-white shadow-md`:`text-[#3D2B1F] hover:bg-[#6B4226]/20`}
+${n===t?`bg-[#6B4226] text-white shadow-md`:`text-[#2A2118] hover:bg-[#6B4226]/20`}
 
 `,children:e},e)}),(0,j.jsx)(`button`,{onClick:()=>s(`contact`),className:`
 bg-[#2A2118]
@@ -89,7 +89,7 @@ text-[#2A2118]
 absolute
 top-20
 w-[92%]
-bg-[#BFA987]
+bg-[#D6C2A3]
 rounded-3xl
 p-6
 shadow-xl
