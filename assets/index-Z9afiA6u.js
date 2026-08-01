@@ -316,15 +316,15 @@ font-semibold
               flex
               gap-10
             `,children:[[`25+`,`Years`],[`1000+`,`Projects`],[`24/7`,`Emergency`]].map(([e,t])=>(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`p`,{className:`
-                    text-3xl
-                    font-bold
-                    text-[#2A2118]
-                  `,children:e}),(0,j.jsx)(`p`,{className:`
-                    text-xs
-                    uppercase
-                    tracking-wider
-                    text-[#6B3F1F]
-                  `,children:t})]},t))})]}),(0,j.jsxs)(`div`,{className:`
+                      text-3xl
+                      font-bold
+                      text-[#2A2118]
+                    `,children:e}),(0,j.jsx)(`p`,{className:`
+                      text-xs
+                      uppercase
+                      tracking-wider
+                      text-[#6B3F1F]
+                    `,children:t})]},t))})]}),(0,j.jsxs)(`div`,{className:`
             relative
             flex
             justify-center
@@ -338,7 +338,7 @@ font-semibold
               rounded-[45px]
               rotate-6
               animate-pulse
-            `}),(0,j.jsx)(`img`,{src:`/apex-tree-service/images/hero.jpg`,alt:`Apex Tree Service`,className:`
+            `}),(0,j.jsx)(`img`,{src:`/apex-tree-service/images/hero.webp`,alt:`Apex Tree Service`,width:`450`,height:`520`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
               relative
               z-10
               w-full
@@ -395,49 +395,53 @@ font-semibold
               Z
             `,fill:`#6B3F1F`,opacity:`0.15`})]})}),(0,j.jsx)(`style`,{children:`
 
-      @keyframes heroLeft{
+        @keyframes heroLeft{
 
-        from{
-          opacity:0;
-          transform:translateX(-60px);
+          from{
+            opacity:0;
+            transform:translateX(-60px);
+          }
+
+
+          to{
+            opacity:1;
+            transform:translateX(0);
+          }
+
         }
 
-        to{
-          opacity:1;
-          transform:translateX(0);
+
+
+        @keyframes heroRight{
+
+          from{
+            opacity:0;
+            transform:translateX(60px);
+          }
+
+
+          to{
+            opacity:1;
+            transform:translateX(0);
+          }
+
         }
 
-      }
 
 
 
-      @keyframes heroRight{
+        @keyframes floatCard{
 
-        from{
-          opacity:0;
-          transform:translateX(60px);
+          0%,100%{
+            transform:translateY(0);
+          }
+
+
+          50%{
+            transform:translateY(-12px);
+          }
+
         }
-
-        to{
-          opacity:1;
-          transform:translateX(0);
-        }
-
-      }
-
-
-
-      @keyframes floatCard{
-
-        0%,100%{
-          transform:translateY(0);
-        }
-
-        50%{
-          transform:translateY(-12px);
-        }
-
-      }
 
 
       `})]})}function Wn(e){(0,x.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function Gn(){let e=(0,x.useRef)(null);return Wn(e),(0,j.jsxs)(`section`,{id:`about`,ref:e,className:`
