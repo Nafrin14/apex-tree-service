@@ -117,7 +117,7 @@ text-white
 py-3
 rounded-full
 font-semibold
-`,children:`Get Quote`})]})})]})}function Hn(){let e=mt(),t=gt(),n=n=>{e.pathname===`/`?document.getElementById(n)?.scrollIntoView({behavior:`smooth`}):t(`/#${n}`)};return(0,j.jsxs)(`footer`,{className:`\r
+`,children:`Get Quote`})]})})]})}function Hn(){let e=mt(),t=gt(),n=n=>{e.pathname===`/`?document.getElementById(n)?.scrollIntoView({behavior:`smooth`,block:`start`}):t(`/#${n}`)};return(0,j.jsxs)(`footer`,{className:`\r
         relative\r
         bg-[#2A2118]\r
         text-white\r
@@ -167,11 +167,11 @@ font-semibold
                   flex\r
                   items-center\r
                   justify-center\r
-                `,children:(0,j.jsx)(`img`,{src:`/images/logo1.webp`,alt:`Apex Tree Service Logo`,className:`\r
+                `,children:(0,j.jsx)(`img`,{src:`/apex-tree-service/images/logo1.webp`,alt:`Apex Tree Service Logo`,className:`\r
                     w-full\r
                     h-full\r
                     object-contain\r
-                  `})}),(0,j.jsxs)(`span`,{children:[`Apex Tree`,(0,j.jsx)(`span`,{className:`text-[#D8C3A5]`,children:`Service`})]})]}),(0,j.jsx)(`p`,{className:`\r
+                  `})}),(0,j.jsxs)(`span`,{children:[`Apex Tree`,(0,j.jsx)(`span`,{className:`text-[#D8C3A5] ml-1`,children:`Service`})]})]}),(0,j.jsx)(`p`,{className:`\r
                 mt-5\r
                 text-sm\r
                 text-gray-300\r
@@ -180,11 +180,14 @@ font-semibold
                 text-lg\r
                 font-bold\r
                 mb-5\r
-              `,children:`Quick Links`}),(0,j.jsxs)(`ul`,{className:`\r
+              `,children:`Quick Links`}),(0,j.jsx)(`ul`,{className:`\r
                 space-y-3\r
                 text-gray-300\r
                 text-sm\r
-              `,children:[(0,j.jsx)(`li`,{children:(0,j.jsx)(`button`,{onClick:()=>n(`home`),className:`hover:text-[#D8C3A5] transition`,children:`Home`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(`button`,{onClick:()=>n(`about`),className:`hover:text-[#D8C3A5] transition`,children:`About`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(`button`,{onClick:()=>n(`services`),className:`hover:text-[#D8C3A5] transition`,children:`Services`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(`button`,{onClick:()=>n(`why-choose-us`),className:`hover:text-[#D8C3A5] transition`,children:`Why Choose Us`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(`button`,{onClick:()=>n(`reviews`),className:`hover:text-[#D8C3A5] transition`,children:`Reviews`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(`button`,{onClick:()=>n(`contact`),className:`hover:text-[#D8C3A5] transition`,children:`Contact`})})]})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`h3`,{className:`\r
+              `,children:[[`Home`,`home`],[`About`,`about`],[`Services`,`services`],[`Why Choose Us`,`why-choose-us`],[`Reviews`,`reviews`],[`Contact`,`contact`]].map(([e,t])=>(0,j.jsx)(`li`,{children:(0,j.jsx)(`button`,{onClick:()=>n(t),className:`\r
+                        hover:text-[#D8C3A5]\r
+                        transition\r
+                      `,"aria-label":`Go to ${e} section`,children:e})},t))})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`h3`,{className:`\r
                 text-lg\r
                 font-bold\r
                 mb-5\r
