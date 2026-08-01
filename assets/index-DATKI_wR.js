@@ -338,7 +338,7 @@ font-semibold
               rounded-[45px]
               rotate-6
               animate-pulse
-            `}),(0,j.jsx)(`img`,{src:`/apex-tree-service/images/hero.webp`,alt:`Apex Tree Service`,width:`450`,height:`520`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
+            `}),(0,j.jsx)(`img`,{src:`/apex-tree-service/images/hero.jpg`,alt:`Apex Tree Service professional tree care`,width:`450`,height:`520`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
               relative
               z-10
               w-full
@@ -371,11 +371,7 @@ font-semibold
           left-0
           w-full
           overflow-hidden
-          leading-none
-        `,children:(0,j.jsxs)(`svg`,{viewBox:`0 0 1440 130`,className:`
-            w-full
-            h-[130px]
-          `,preserveAspectRatio:`none`,children:[(0,j.jsx)(`path`,{d:`
+        `,children:(0,j.jsxs)(`svg`,{viewBox:`0 0 1440 130`,className:`w-full h-[130px]`,preserveAspectRatio:`none`,children:[(0,j.jsx)(`path`,{d:`
               M0 20
               L1440 95
               V130
@@ -402,7 +398,6 @@ font-semibold
             transform:translateX(-60px);
           }
 
-
           to{
             opacity:1;
             transform:translateX(0);
@@ -419,7 +414,6 @@ font-semibold
             transform:translateX(60px);
           }
 
-
           to{
             opacity:1;
             transform:translateX(0);
@@ -429,20 +423,17 @@ font-semibold
 
 
 
-
         @keyframes floatCard{
 
           0%,100%{
             transform:translateY(0);
           }
 
-
           50%{
             transform:translateY(-12px);
           }
 
         }
-
 
       `})]})}function Wn(e){(0,x.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function Gn(){let e=(0,x.useRef)(null);return Wn(e),(0,j.jsxs)(`section`,{id:`about`,ref:e,className:`
 relative
