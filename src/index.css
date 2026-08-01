@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+* { box-sizing: border-box; }
+body {
+  overflow-x: hidden;
+  font-family: 'Outfit', sans-serif;
+  background: #f8faf8;
+  color: #1a3c2e;
+}
+
+/* ═══════════════════════════════════
+   KEYFRAMES
+═══════════════════════════════════ */
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(36px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+@keyframes fadeLeft {
+  from { opacity:0; transform:translateX(-40px); }
+  to   { opacity:1; transform:translateX(0); }
+}
+@keyframes fadeRight {
+  from { opacity:0; transform:translateX(40px); }
+  to   { opacity:1; transform:translateX(0); }
+}
+@keyframes fadeIn {
+  from { opacity:0; }
+  to   { opacity:1; }
+}
+@keyframes floatY {
+  0%,100% { transform:translateY(0); }
+  50%     { transform:translateY(-14px); }
+}
+@keyframes floatYB {
+  0%,100% { transform:translateY(0) rotate(0deg); }
+  50%     { transform:translateY(12px) rotate(8deg); }
+}
+@keyframes rotateSlow {
+  from { transform:rotate(0deg); }
+  to   { transform:rotate(360deg); }
+}
+@keyframes rotateSlowR {
+  from { transform:rotate(0deg); }
+  to   { transform:rotate(-360deg); }
+}
+@keyframes pulseScale {
+  0%,100% { transform:scale(1);   opacity:0.5; }
+  50%     { transform:scale(1.12); opacity:0.8; }
+}
+@keyframes shimmer {
+  0%   { background-position:200% center; }
+  100% { background-position:-200% center; }
+}
+@keyframes countIn {
+  from { opacity:0; transform:translateY(20px) scale(.9); }
+  to   { opacity:1; transform:translateY(0) scale(1); }
+}
+@keyframes lineGrow {
+  from { width:0; }
+  to   { width:100%; }
+}
+@keyframes drawBorder {
+  from { opacity:0; transform:scaleX(0); }
+  to   { opacity:1; transform:scaleX(1); }
+}
+
+/* ═══════════════════════════════════
+   ANIMATION CLASSES
+═══════════════════════════════════ */
+.a-fade-up    { animation:fadeUp    .75s cubic-bezier(.16,1,.3,1) both; }
+.a-fade-left  { animation:fadeLeft  .75s cubic-bezier(.16,1,.3,1) both; }
+.a-fade-right { animation:fadeRight .75s cubic-bezier(.16,1,.3,1) both; }
+.a-fade-in    { animation:fadeIn    .6s ease both; }
+.a-float      { animation:floatY    5s ease-in-out infinite; }
+.a-float-b    { animation:floatYB   7s ease-in-out infinite; }
+.a-rotate     { animation:rotateSlow  24s linear infinite; }
+.a-rotate-r   { animation:rotateSlowR 18s linear infinite; }
+.a-pulse      { animation:pulseScale   3s ease-in-out infinite; }
+.a-count      { animation:countIn    .7s cubic-bezier(.16,1,.3,1) both; }
+
+.d-0   { animation-delay:0s; }
+.d-1   { animation-delay:.10s; }
+.d-2   { animation-delay:.20s; }
+.d-3   { animation-delay:.30s; }
+.d-4   { animation-delay:.40s; }
+.d-5   { animation-delay:.50s; }
+.d-6   { animation-delay:.60s; }
+.d-7   { animation-delay:.70s; }
+.d-8   { animation-delay:.80s; }
+.d-9   { animation-delay:.90s; }
+.d-10  { animation-delay:1.0s; }
+.d-12  { animation-delay:1.2s; }
+
+/* ═══════════════════════════════════
+   SCROLL REVEAL
+═══════════════════════════════════ */
+.sr {
+  opacity:0;
+  transform:translateY(30px);
+  transition:opacity .65s cubic-bezier(.16,1,.3,1),
+             transform .65s cubic-bezier(.16,1,.3,1);
+}
+.sr.on { opacity:1; transform:translateY(0); }
+
+.sr-l {
+  opacity:0; transform:translateX(-35px);
+  transition:opacity .65s cubic-bezier(.16,1,.3,1),
+             transform .65s cubic-bezier(.16,1,.3,1);
+}
+.sr-l.on { opacity:1; transform:translateX(0); }
+
+.sr-r {
+  opacity:0; transform:translateX(35px);
+  transition:opacity .65s cubic-bezier(.16,1,.3,1),
+             transform .65s cubic-bezier(.16,1,.3,1);
+}
+.sr-r.on { opacity:1; transform:translateX(0); }
+
+/* stagger */
+.sg > *:nth-child(1) { transition-delay:.04s; }
+.sg > *:nth-child(2) { transition-delay:.12s; }
+.sg > *:nth-child(3) { transition-delay:.20s; }
+.sg > *:nth-child(4) { transition-delay:.28s; }
+.sg > *:nth-child(5) { transition-delay:.36s; }
+.sg > *:nth-child(6) { transition-delay:.44s; }
+
+/* ═══════════════════════════════════
+   GOLD SHIMMER TEXT
+═══════════════════════════════════ */
+.shimmer-text {
+  background: linear-gradient(90deg, #d4a843 0%, #f0c96a 40%, #d4a843 60%, #b8892c 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 4s linear infinite;
+}
+
+/* Gold CTA button glow */
+.btn-gold {
+  background: linear-gradient(135deg,#d4a843,#c49930);
+  color: white;
+  font-weight: 700;
+  border-radius: 9999px;
+  transition: all .25s ease;
+  box-shadow: 0 6px 20px rgba(212,168,67,.35);
+}
+.btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(212,168,67,.55);
+  background: linear-gradient(135deg,#e4b850,#d4a843);
+}
+
+/* Outline ghost button */
+.btn-ghost {
+  border: 2px solid rgba(255,255,255,.45);
+  color: white;
+  font-weight: 700;
+  border-radius: 9999px;
+  transition: all .25s ease;
+}
+.btn-ghost:hover {
+  border-color: rgba(255,255,255,.9);
+  background: rgba(255,255,255,.1);
+  transform: translateY(-2px);
+}
+
+/* Card hover lift */
+.card-lift {
+  transition: transform .3s cubic-bezier(.16,1,.3,1), box-shadow .3s ease;
+}
+.card-lift:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 24px 48px rgba(26,60,46,.14);
+}
