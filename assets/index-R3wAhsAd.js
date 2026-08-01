@@ -274,9 +274,7 @@ font-semibold
               font-extrabold
               leading-[1.05]
               text-[#2A2118]
-            `,children:[`Protecting Trees.`,(0,j.jsx)(`br`,{}),`Creating`,(0,j.jsxs)(`span`,{className:`
-                text-[#6B3F1F]
-              `,children:[` `,`Beautiful`]}),(0,j.jsx)(`br`,{}),`Landscapes.`]}),(0,j.jsx)(`p`,{className:`
+            `,children:[`Protecting Trees.`,(0,j.jsx)(`br`,{}),`Creating`,(0,j.jsxs)(`span`,{className:`text-[#6B3F1F]`,children:[` `,`Beautiful`]}),(0,j.jsx)(`br`,{}),`Landscapes.`]}),(0,j.jsx)(`p`,{className:`
               mt-6
               max-w-lg
               text-base
@@ -314,16 +312,16 @@ font-semibold
               mt-10
               flex
               gap-10
-            `,children:[[`25+`,`Years`],[`1000+`,`Projects`],[`24/7`,`Emergency`]].map(([e,t])=>(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`h3`,{className:`
-                      text-3xl
-                      font-bold
-                      text-[#2A2118]
-                    `,children:e}),(0,j.jsx)(`p`,{className:`
-                      text-xs
-                      uppercase
-                      tracking-wider
-                      text-[#6B3F1F]
-                    `,children:t})]},t))})]}),(0,j.jsxs)(`div`,{className:`
+            `,children:[[`25+`,`Years`],[`1000+`,`Projects`],[`24/7`,`Emergency`]].map(([e,t])=>(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`p`,{className:`
+                    text-3xl
+                    font-bold
+                    text-[#2A2118]
+                  `,children:e}),(0,j.jsx)(`p`,{className:`
+                    text-xs
+                    uppercase
+                    tracking-wider
+                    text-[#6B3F1F]
+                  `,children:t})]},t))})]}),(0,j.jsxs)(`div`,{className:`
             relative
             flex
             justify-center
@@ -357,89 +355,89 @@ font-semibold
               py-5
               shadow-xl
               animate-[floatCard_4s_infinite]
-            `,children:[(0,j.jsx)(`h3`,{className:`
+            `,children:[(0,j.jsx)(`p`,{className:`
                 text-3xl
                 font-bold
                 text-[#2A2118]
               `,children:`25+`}),(0,j.jsx)(`p`,{className:`
                 text-sm
                 text-[#6B3F1F]
-              `,children:`Years Trusted Service`})]})]}),(0,j.jsx)(`div`,{className:`
-            absolute
-            bottom-0
-            left-0
+              `,children:`Years Trusted Service`})]})]})]}),(0,j.jsx)(`div`,{className:`
+          absolute
+          bottom-0
+          left-0
+          w-full
+          overflow-hidden
+          leading-none
+        `,children:(0,j.jsxs)(`svg`,{viewBox:`0 0 1440 130`,className:`
             w-full
-            overflow-hidden
-            leading-none
-          `,children:(0,j.jsxs)(`svg`,{viewBox:`0 0 1440 130`,className:`
-              w-full
-              h-[130px]
-            `,preserveAspectRatio:`none`,children:[(0,j.jsx)(`path`,{d:`
-                M0 20
-                L1440 95
-                V130
-                H0
-                Z
-              `,fill:`#FFFFFF`}),(0,j.jsx)(`path`,{d:`
-                M0 60
-                L1440 120
-                V130
-                H0
-                Z
-              `,fill:`#B8860B`,opacity:`0.20`}),(0,j.jsx)(`path`,{d:`
-                M0 90
-                L1440 130
-                V130
-                H0
-                Z
-              `,fill:`#6B3F1F`,opacity:`0.15`})]})}),(0,j.jsx)(`style`,{children:`
+            h-[130px]
+          `,preserveAspectRatio:`none`,children:[(0,j.jsx)(`path`,{d:`
+              M0 20
+              L1440 95
+              V130
+              H0
+              Z
+            `,fill:`#FFFFFF`}),(0,j.jsx)(`path`,{d:`
+              M0 60
+              L1440 120
+              V130
+              H0
+              Z
+            `,fill:`#B8860B`,opacity:`0.20`}),(0,j.jsx)(`path`,{d:`
+              M0 90
+              L1440 130
+              V130
+              H0
+              Z
+            `,fill:`#6B3F1F`,opacity:`0.15`})]})}),(0,j.jsx)(`style`,{children:`
 
-          @keyframes heroLeft{
+      @keyframes heroLeft{
 
-            from{
-              opacity:0;
-              transform:translateX(-60px);
-            }
+        from{
+          opacity:0;
+          transform:translateX(-60px);
+        }
 
-            to{
-              opacity:1;
-              transform:translateX(0);
-            }
+        to{
+          opacity:1;
+          transform:translateX(0);
+        }
 
-          }
+      }
 
 
 
-          @keyframes heroRight{
+      @keyframes heroRight{
 
-            from{
-              opacity:0;
-              transform:translateX(60px);
-            }
+        from{
+          opacity:0;
+          transform:translateX(60px);
+        }
 
-            to{
-              opacity:1;
-              transform:translateX(0);
-            }
+        to{
+          opacity:1;
+          transform:translateX(0);
+        }
 
-          }
-
-
-
-          @keyframes floatCard{
-
-            0%,100%{
-              transform:translateY(0);
-            }
-
-            50%{
-              transform:translateY(-12px);
-            }
-
-          }
+      }
 
 
-        `})]})]})}function Wn(e){(0,x.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function Gn(){let e=(0,x.useRef)(null);return Wn(e),(0,j.jsxs)(`section`,{id:`about`,ref:e,className:`
+
+      @keyframes floatCard{
+
+        0%,100%{
+          transform:translateY(0);
+        }
+
+        50%{
+          transform:translateY(-12px);
+        }
+
+      }
+
+
+      `})]})}function Wn(e){(0,x.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function Gn(){let e=(0,x.useRef)(null);return Wn(e),(0,j.jsxs)(`section`,{id:`about`,ref:e,className:`
 relative
 py-28
 overflow-hidden
