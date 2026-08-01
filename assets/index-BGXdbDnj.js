@@ -31,7 +31,7 @@ py-4
 flex
 items-center
 justify-between
-`,children:[(0,j.jsxs)(`button`,{onClick:()=>s(`home`),className:`
+`,children:[(0,j.jsxs)(`button`,{type:`button`,"aria-label":`Go to Apex Tree Service home page`,onClick:()=>s(`home`),className:`
 flex
 items-center
 gap-3
@@ -58,7 +58,7 @@ hidden
 lg:flex
 items-center
 gap-3
-`,children:[o.map(e=>{let t=e.toLowerCase().replaceAll(` `,`-`);return(0,j.jsx)(`button`,{onClick:()=>s(t),className:`
+`,children:[o.map(e=>{let t=e.toLowerCase().replaceAll(` `,`-`);return(0,j.jsx)(`button`,{type:`button`,onClick:()=>s(t),className:`
 
 px-4
 py-2
@@ -71,7 +71,7 @@ duration-300
 
 ${n===t?`bg-[#6B4226] text-white shadow-md`:`text-[#2A2118] hover:bg-[#6B4226]/20`}
 
-`,children:e},e)}),(0,j.jsx)(`button`,{onClick:()=>s(`contact`),className:`
+`,children:e},e)}),(0,j.jsx)(`button`,{type:`button`,onClick:()=>s(`contact`),className:`
 bg-[#2A2118]
 text-white
 px-7
@@ -82,10 +82,10 @@ font-semibold
 hover:bg-[#6B4226]
 transition
 ml-3
-`,children:`Get Quote`})]}),(0,j.jsx)(`button`,{onClick:()=>t(!e),className:`
+`,children:`Get Quote`})]}),(0,j.jsx)(`button`,{type:`button`,"aria-label":e?`Close navigation menu`:`Open navigation menu`,title:e?`Close menu`:`Open menu`,onClick:()=>t(!e),className:`
 lg:hidden
 text-[#2A2118]
-`,"aria-label":e?`Close navigation menu`:`Open navigation menu`,title:e?`Close menu`:`Open menu`,children:e?(0,j.jsx)(Bn,{}):(0,j.jsx)(zn,{})})]})}),e&&(0,j.jsx)(`div`,{className:`
+`,children:e?(0,j.jsx)(Bn,{}):(0,j.jsx)(zn,{})})]})}),e&&(0,j.jsx)(`div`,{className:`
 absolute
 top-20
 w-[92%]
@@ -99,7 +99,7 @@ border-[#2A2118]/20
 flex
 flex-col
 gap-5
-`,children:[o.map(e=>{let t=e.toLowerCase().replaceAll(` `,`-`);return(0,j.jsx)(`button`,{onClick:()=>s(t),className:`
+`,children:[o.map(e=>{let t=e.toLowerCase().replaceAll(` `,`-`);return(0,j.jsx)(`button`,{type:`button`,onClick:()=>s(t),className:`
 
 text-left
 px-4
@@ -111,7 +111,7 @@ transition
 
 ${n===t?`bg-[#6B4226] text-white shadow-md`:`text-[#2A2118] hover:bg-[#6B4226]/20`}
 
-`,children:e},e)}),(0,j.jsx)(`button`,{onClick:()=>s(`contact`),className:`
+`,children:e},e)}),(0,j.jsx)(`button`,{type:`button`,onClick:()=>s(`contact`),className:`
 bg-[#2A2118]
 text-white
 py-3
