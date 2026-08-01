@@ -1113,104 +1113,111 @@ transform:translateY(0);
 
 }
 
-`})]})}var Qn={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},$n=x.createContext&&x.createContext(Qn),er=[`attr`,`size`,`title`];function tr(e,t){if(e==null)return{};var n,r,i=nr(e,t);if(Object.getOwnPropertySymbols){var a=Object.getOwnPropertySymbols(e);for(r=0;r<a.length;r++)n=a[r],t.indexOf(n)===-1&&{}.propertyIsEnumerable.call(e,n)&&(i[n]=e[n])}return i}function nr(e,t){if(e==null)return{};var n={};for(var r in e)if({}.hasOwnProperty.call(e,r)){if(t.indexOf(r)!==-1)continue;n[r]=e[r]}return n}function rr(){return rr=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)({}).hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},rr.apply(null,arguments)}function ir(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter(function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable})),n.push.apply(n,r)}return n}function ar(e){for(var t=1;t<arguments.length;t++){var n=arguments[t]==null?{}:arguments[t];t%2?ir(Object(n),!0).forEach(function(t){or(e,t,n[t])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):ir(Object(n)).forEach(function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(n,t))})}return e}function or(e,t,n){return(t=sr(t))in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function sr(e){var t=cr(e,`string`);return typeof t==`symbol`?t:t+``}function cr(e,t){if(typeof e!=`object`||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var r=n.call(e,t||`default`);if(typeof r!=`object`)return r;throw TypeError(`@@toPrimitive must return a primitive value.`)}return(t===`string`?String:Number)(e)}function lr(e){return e&&e.map((e,t)=>x.createElement(e.tag,ar({key:t},e.attr),lr(e.child)))}function ur(e){return t=>x.createElement(dr,rr({attr:ar({},e.attr)},t),lr(e.child))}function dr(e){var t=t=>{var n=e.attr,r=e.size,i=e.title,a=tr(e,er),o=r||t.size||`1em`,s;return t.className&&(s=t.className),e.className&&(s=(s?s+` `:``)+e.className),x.createElement(`svg`,rr({stroke:`currentColor`,fill:`currentColor`,strokeWidth:`0`},t.attr,n,a,{className:s,style:ar(ar({color:e.color||t.color},t.style),e.style),height:o,width:o,xmlns:`http://www.w3.org/2000/svg`}),i&&x.createElement(`title`,null,i),e.children)};return $n===void 0?t(Qn):x.createElement($n.Consumer,null,e=>t(e))}function fr(e){return ur({tag:`svg`,attr:{viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,strokeLinecap:`round`,strokeLinejoin:`round`},child:[{tag:`path`,attr:{d:`M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z`},child:[]}]})(e)}function pr(e){return ur({tag:`svg`,attr:{viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,strokeLinecap:`round`,strokeLinejoin:`round`},child:[{tag:`path`,attr:{d:`M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z`},child:[]},{tag:`circle`,attr:{cx:`12`,cy:`10`,r:`3`},child:[]}]})(e)}function mr(e){return ur({tag:`svg`,attr:{viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,strokeLinecap:`round`,strokeLinejoin:`round`},child:[{tag:`path`,attr:{d:`M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z`},child:[]},{tag:`polyline`,attr:{points:`22,6 12,13 2,6`},child:[]}]})(e)}function hr(){return(0,x.useEffect)(()=>{let e=document.createElement(`script`);return e.src=`https://link.kdlead.com/js/form_embed.js`,e.async=!0,document.body.appendChild(e),()=>{document.body.removeChild(e)}},[]),(0,j.jsx)(`section`,{id:`contact`,className:`\r
-        pt-12\r
-        pb-24\r
-        bg-[#F5EFE6]\r
-      `,children:(0,j.jsx)(`div`,{className:`\r
-          max-w-7xl\r
-          mx-auto\r
-          px-6\r
-        `,children:(0,j.jsxs)(`div`,{className:`\r
-            grid\r
-            lg:grid-cols-2\r
-            gap-12\r
-            items-center\r
-          `,children:[(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`span`,{className:`\r
-                inline-block\r
-                -mt-6\r
-                bg-[#6B3F1F]/10\r
-                text-[#6B3F1F]\r
-                px-5\r
-                py-2\r
-                rounded-full\r
-                text-sm\r
-                font-semibold\r
-              `,children:`Contact Us`}),(0,j.jsxs)(`h2`,{className:`\r
-                mt-6\r
-                text-4xl\r
-                md:text-5xl\r
-                font-bold\r
-                text-[#2A2118]\r
-                leading-tight\r
-              `,children:[`Let's Take Care`,(0,j.jsx)(`br`,{}),`Of Your Trees`]}),(0,j.jsx)(`p`,{className:`\r
-                mt-5\r
-                text-[#3D2B1F]\r
-                text-lg\r
-                leading-relaxed\r
-              `,children:`Get professional tree care solutions from Apex Tree Service. Contact our team today for a free estimate and reliable service.`}),(0,j.jsxs)(`div`,{className:`\r
-                mt-8\r
-                space-y-5\r
-              `,children:[(0,j.jsxs)(`div`,{className:`\r
-                  flex\r
-                  items-center\r
-                  gap-4\r
-                `,children:[(0,j.jsx)(`div`,{className:`\r
-                    w-12\r
-                    h-12\r
-                    rounded-full\r
-                    bg-[#6B3F1F]\r
-                    text-white\r
-                    flex\r
-                    items-center\r
-                    justify-center\r
-                  `,children:(0,j.jsx)(fr,{size:20})}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`p`,{className:`text-sm text-gray-600`,children:`Phone`}),(0,j.jsx)(`p`,{className:`font-semibold text-[#2A2118]`,children:`716-638-3737`})]})]}),(0,j.jsxs)(`div`,{className:`\r
-                  flex\r
-                  items-center\r
-                  gap-4\r
-                `,children:[(0,j.jsx)(`div`,{className:`\r
-                    w-12\r
-                    h-12\r
-                    rounded-full\r
-                    bg-[#6B3F1F]\r
-                    text-white\r
-                    flex\r
-                    items-center\r
-                    justify-center\r
-                  `,children:(0,j.jsx)(mr,{size:20})}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`p`,{className:`text-sm text-gray-600`,children:`Email`}),(0,j.jsx)(`p`,{className:`font-semibold text-[#2A2118]`,children:`sales@kdnursery.com`})]})]}),(0,j.jsxs)(`div`,{className:`\r
-                  flex\r
-                  items-center\r
-                  gap-4\r
-                `,children:[(0,j.jsx)(`div`,{className:`\r
-                    w-12\r
-                    h-12\r
-                    rounded-full\r
-                    bg-[#6B3F1F]\r
-                    text-white\r
-                    flex\r
-                    items-center\r
-                    justify-center\r
-                  `,children:(0,j.jsx)(pr,{size:20})}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`p`,{className:`text-sm text-gray-600`,children:`Location`}),(0,j.jsx)(`p`,{className:`font-semibold text-[#2A2118]`,children:`40 Stevens Ave, Buffalo`})]})]})]}),(0,j.jsxs)(`div`,{className:`\r
-                mt-10\r
-                bg-[#2A2118]\r
-                rounded-3xl\r
-                p-6\r
-                text-white\r
-                max-w-md\r
-              `,children:[(0,j.jsx)(`h3`,{className:`\r
-                  text-xl\r
-                  font-bold\r
-                `,children:`Need Tree Service?`}),(0,j.jsx)(`p`,{className:`\r
-                  mt-2\r
-                  text-white\r
-                `,children:`Request your free estimate today and our team will get back to you soon.`})]})]}),(0,j.jsx)(`div`,{className:`\r
-              bg-white\r
-              rounded-3xl\r
-              shadow-xl\r
-              p-4\r
-              h-[900px]\r
-              overflow-hidden\r
-            `,children:(0,j.jsx)(`iframe`,{src:`https://link.kdlead.com/widget/form/GgppPqKwcgVCRtwYVFFz`,style:{width:`100%`,height:`100%`,border:`none`,borderRadius:`8px`},id:`inline-GgppPqKwcgVCRtwYVFFz`,"data-layout":`{"id":"INLINE"}`,"data-trigger-type":`alwaysShow`,"data-trigger-value":``,"data-activation-type":`alwaysActivated`,"data-activation-value":``,"data-deactivation-type":`neverDeactivate`,"data-deactivation-value":``,"data-form-name":`Apex tree service`,"data-height":`871`,"data-layout-iframe-id":`inline-GgppPqKwcgVCRtwYVFFz`,"data-form-id":`GgppPqKwcgVCRtwYVFFz`,title:`Apex tree service`})})]})})})}function gr(){return(0,j.jsx)(`section`,{className:`\r
+`})]})}var Qn={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},$n=x.createContext&&x.createContext(Qn),er=[`attr`,`size`,`title`];function tr(e,t){if(e==null)return{};var n,r,i=nr(e,t);if(Object.getOwnPropertySymbols){var a=Object.getOwnPropertySymbols(e);for(r=0;r<a.length;r++)n=a[r],t.indexOf(n)===-1&&{}.propertyIsEnumerable.call(e,n)&&(i[n]=e[n])}return i}function nr(e,t){if(e==null)return{};var n={};for(var r in e)if({}.hasOwnProperty.call(e,r)){if(t.indexOf(r)!==-1)continue;n[r]=e[r]}return n}function rr(){return rr=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)({}).hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},rr.apply(null,arguments)}function ir(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter(function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable})),n.push.apply(n,r)}return n}function ar(e){for(var t=1;t<arguments.length;t++){var n=arguments[t]==null?{}:arguments[t];t%2?ir(Object(n),!0).forEach(function(t){or(e,t,n[t])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):ir(Object(n)).forEach(function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(n,t))})}return e}function or(e,t,n){return(t=sr(t))in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function sr(e){var t=cr(e,`string`);return typeof t==`symbol`?t:t+``}function cr(e,t){if(typeof e!=`object`||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var r=n.call(e,t||`default`);if(typeof r!=`object`)return r;throw TypeError(`@@toPrimitive must return a primitive value.`)}return(t===`string`?String:Number)(e)}function lr(e){return e&&e.map((e,t)=>x.createElement(e.tag,ar({key:t},e.attr),lr(e.child)))}function ur(e){return t=>x.createElement(dr,rr({attr:ar({},e.attr)},t),lr(e.child))}function dr(e){var t=t=>{var n=e.attr,r=e.size,i=e.title,a=tr(e,er),o=r||t.size||`1em`,s;return t.className&&(s=t.className),e.className&&(s=(s?s+` `:``)+e.className),x.createElement(`svg`,rr({stroke:`currentColor`,fill:`currentColor`,strokeWidth:`0`},t.attr,n,a,{className:s,style:ar(ar({color:e.color||t.color},t.style),e.style),height:o,width:o,xmlns:`http://www.w3.org/2000/svg`}),i&&x.createElement(`title`,null,i),e.children)};return $n===void 0?t(Qn):x.createElement($n.Consumer,null,e=>t(e))}function fr(e){return ur({tag:`svg`,attr:{viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,strokeLinecap:`round`,strokeLinejoin:`round`},child:[{tag:`path`,attr:{d:`M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z`},child:[]}]})(e)}function pr(e){return ur({tag:`svg`,attr:{viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,strokeLinecap:`round`,strokeLinejoin:`round`},child:[{tag:`path`,attr:{d:`M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z`},child:[]},{tag:`circle`,attr:{cx:`12`,cy:`10`,r:`3`},child:[]}]})(e)}function mr(e){return ur({tag:`svg`,attr:{viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,strokeLinecap:`round`,strokeLinejoin:`round`},child:[{tag:`path`,attr:{d:`M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z`},child:[]},{tag:`polyline`,attr:{points:`22,6 12,13 2,6`},child:[]}]})(e)}function hr(){let[e,t]=(0,x.useState)(!1),n=(0,x.useRef)(null);return(0,x.useEffect)(()=>{let e=new IntersectionObserver(([n])=>{n.isIntersecting&&(t(!0),e.disconnect())},{rootMargin:`200px`});return n.current&&e.observe(n.current),()=>{e.disconnect()}},[]),(0,x.useEffect)(()=>{if(!e)return;let t=document.createElement(`script`);return t.src=`https://link.kdlead.com/js/form_embed.js`,t.async=!0,document.body.appendChild(t),()=>{document.body.removeChild(t)}},[e]),(0,j.jsx)(`section`,{ref:n,id:`contact`,className:`\r
+pt-12\r
+pb-24\r
+bg-[#F5EFE6]\r
+`,children:(0,j.jsx)(`div`,{className:`\r
+max-w-7xl\r
+mx-auto\r
+px-6\r
+`,children:(0,j.jsxs)(`div`,{className:`\r
+grid\r
+lg:grid-cols-2\r
+gap-12\r
+items-center\r
+`,children:[(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`span`,{className:`\r
+inline-block\r
+-mt-6\r
+bg-[#6B3F1F]/10\r
+text-[#6B3F1F]\r
+px-5\r
+py-2\r
+rounded-full\r
+text-sm\r
+font-semibold\r
+`,children:`Contact Us`}),(0,j.jsxs)(`h2`,{className:`\r
+mt-6\r
+text-4xl\r
+md:text-5xl\r
+font-bold\r
+text-[#2A2118]\r
+leading-tight\r
+`,children:[`Let's Take Care`,(0,j.jsx)(`br`,{}),`Of Your Trees`]}),(0,j.jsx)(`p`,{className:`\r
+mt-5\r
+text-[#3D2B1F]\r
+text-lg\r
+leading-relaxed\r
+`,children:`Get professional tree care solutions from Apex Tree Service. Contact our team today for a free estimate and reliable service.`}),(0,j.jsxs)(`div`,{className:`\r
+mt-8\r
+space-y-5\r
+`,children:[(0,j.jsxs)(`div`,{className:`\r
+flex\r
+items-center\r
+gap-4\r
+`,children:[(0,j.jsx)(`div`,{className:`\r
+w-12\r
+h-12\r
+rounded-full\r
+bg-[#6B3F1F]\r
+text-white\r
+flex\r
+items-center\r
+justify-center\r
+`,children:(0,j.jsx)(fr,{size:20})}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`p`,{className:`text-sm text-[#5B4636]`,children:`Phone`}),(0,j.jsx)(`p`,{className:`font-semibold text-[#2A2118]`,children:`716-638-3737`})]})]}),(0,j.jsxs)(`div`,{className:`\r
+flex\r
+items-center\r
+gap-4\r
+`,children:[(0,j.jsx)(`div`,{className:`\r
+w-12\r
+h-12\r
+rounded-full\r
+bg-[#6B3F1F]\r
+text-white\r
+flex\r
+items-center\r
+justify-center\r
+`,children:(0,j.jsx)(mr,{size:20})}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`p`,{className:`text-sm text-[#5B4636]`,children:`Email`}),(0,j.jsx)(`p`,{className:`font-semibold text-[#2A2118]`,children:`sales@kdnursery.com`})]})]}),(0,j.jsxs)(`div`,{className:`\r
+flex\r
+items-center\r
+gap-4\r
+`,children:[(0,j.jsx)(`div`,{className:`\r
+w-12\r
+h-12\r
+rounded-full\r
+bg-[#6B3F1F]\r
+text-white\r
+flex\r
+items-center\r
+justify-center\r
+`,children:(0,j.jsx)(pr,{size:20})}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`p`,{className:`text-sm text-[#5B4636]`,children:`Location`}),(0,j.jsx)(`p`,{className:`font-semibold text-[#2A2118]`,children:`40 Stevens Ave, Buffalo`})]})]})]}),(0,j.jsxs)(`div`,{className:`\r
+mt-10\r
+bg-[#2A2118]\r
+rounded-3xl\r
+p-6\r
+text-white\r
+max-w-md\r
+`,children:[(0,j.jsx)(`h3`,{className:`\r
+text-xl\r
+font-bold\r
+`,children:`Need Tree Service?`}),(0,j.jsx)(`p`,{className:`\r
+mt-2\r
+text-white/90\r
+`,children:`Request your free estimate today and our team will get back to you soon.`})]})]}),(0,j.jsx)(`div`,{className:`\r
+bg-white\r
+rounded-3xl\r
+shadow-xl\r
+p-4\r
+h-[900px]\r
+overflow-hidden\r
+`,children:e?(0,j.jsx)(`iframe`,{src:`https://link.kdlead.com/widget/form/GgppPqKwcgVCRtwYVFFz`,loading:`lazy`,style:{width:`100%`,height:`100%`,border:`none`,borderRadius:`8px`},id:`inline-GgppPqKwcgVCRtwYVFFz`,"data-layout":`{"id":"INLINE"}`,"data-trigger-type":`alwaysShow`,"data-activation-type":`alwaysActivated`,"data-deactivation-type":`neverDeactivate`,"data-form-name":`Apex tree service`,"data-height":`871`,"data-layout-iframe-id":`inline-GgppPqKwcgVCRtwYVFFz`,"data-form-id":`GgppPqKwcgVCRtwYVFFz`,title:`Apex tree service`}):(0,j.jsx)(`div`,{className:`\r
+h-full\r
+flex\r
+items-center\r
+justify-center\r
+text-[#5B4636]\r
+font-medium\r
+`,children:`Loading form...`})})]})})})}function gr(){return(0,j.jsx)(`section`,{className:`\r
         min-h-screen\r
         bg-[#F5EFE6]\r
         py-32\r
