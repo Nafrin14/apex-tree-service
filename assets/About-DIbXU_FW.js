@@ -1,4 +1,4 @@
-import{n as e,r as t,t as n}from"./index-Biu30ClY.js";import{t as r}from"./about-BTaSlNHS.js";var i=t(e(),1),a=n();function o(e){(0,i.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function s(){let e=(0,i.useRef)(null);return o(e),(0,a.jsxs)(`section`,{id:`about`,ref:e,className:`
+import{n as e,r as t,t as n}from"./index-CLD5ChgS.js";import{t as r}from"./about-BTaSlNHS.js";var i=t(e(),1),a=n();function o(e){(0,i.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function s(){let e=(0,i.useRef)(null);return o(e),(0,a.jsxs)(`section`,{id:`about`,ref:e,className:`
 relative
 py-28
 overflow-hidden
