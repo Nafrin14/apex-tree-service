@@ -860,7 +860,7 @@ max-w-lg\r
 `,children:`We combine experience, safety and modern techniques to deliver professional tree care solutions you can trust.`}),(0,j.jsxs)(`div`,{className:`\r
 mt-10\r
 relative\r
-`,children:[(0,j.jsx)(`img`,{src:`/apex-tree-service/images/about.jpg`,alt:`Tree Service`,className:`\r
+`,children:[(0,j.jsx)(`img`,{src:Kn,alt:`Tree Service`,width:`448`,height:`320`,loading:`lazy`,decoding:`async`,className:`\r
 w-full\r
 max-w-md\r
 h-[320px]\r
