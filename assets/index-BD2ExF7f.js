@@ -193,10 +193,10 @@ font-semibold
           `,children:[(0,j.jsx)(`p`,{children:`© 2026 Apex Tree Service. All Rights Reserved.`}),(0,j.jsxs)(`div`,{className:`\r
               flex\r
               gap-6\r
-            `,children:[(0,j.jsx)(`a`,{href:`/privacy`,className:`\r
+            `,children:[(0,j.jsx)(Dn,{to:`/privacy`,className:`\r
                 hover:text-[#D8C3A5]\r
                 transition\r
-              `,children:`Privacy Policy`}),(0,j.jsx)(`a`,{href:`/terms`,className:`\r
+              `,children:`Privacy Policy`}),(0,j.jsx)(Dn,{to:`/terms`,className:`\r
                 hover:text-[#D8C3A5]\r
                 transition\r
               `,children:`Terms & Conditions`})]})]})]})})}var Gn=`/apex-tree-service/assets/hero-N5rwgfIv.webp`;function Kn(){return(0,j.jsxs)(`section`,{id:`home`,className:`
@@ -1120,7 +1120,7 @@ items-center\r
 justify-center\r
 text-[#5B4636]\r
 font-medium\r
-`,children:`Loading form...`})})]})})})}var br=(0,_.lazy)(()=>ee(()=>import(`./Privacy-DiC5kCqN.js`),[])),xr=(0,_.lazy)(()=>ee(()=>import(`./Terms-DXid6za9.js`),[]));function Sr(){return(0,j.jsx)(`div`,{className:`
+`,children:`Loading form...`})})]})})})}var br=(0,_.lazy)(()=>ee(()=>import(`./Privacy--DwXZ7hM.js`),[])),xr=(0,_.lazy)(()=>ee(()=>import(`./Terms-CTtOYYAj.js`),[]));function Sr(){return(0,j.jsx)(`div`,{className:`
         min-h-[200px]
         flex
         items-center
