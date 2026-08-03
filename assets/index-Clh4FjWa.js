@@ -204,7 +204,7 @@ font-semibold
               `,children:`Privacy Policy`}),(0,j.jsx)(`a`,{href:`/terms`,className:`\r
                 hover:text-[#D8C3A5]\r
                 transition\r
-              `,children:`Terms & Conditions`})]})]})]})})}var Gn=`/apex-tree-service/assets/hero-BVIOgg5f.webp`;function Kn(){return(0,j.jsxs)(`section`,{id:`home`,className:`
+              `,children:`Terms & Conditions`})]})]})]})})}var Gn=`/apex-tree-service/assets/hero-N5rwgfIv.webp`;function Kn(){return(0,j.jsxs)(`section`,{id:`home`,className:`
         relative
         min-h-screen
         lg:min-h-[850px]
@@ -355,7 +355,7 @@ font-semibold
               V130
               H0
               Z
-            `,fill:`#6B3F1F`,opacity:`0.15`})]})})]})}var qn=`/apex-tree-service/assets/about-BB1T9G1r.webp`;function Jn(e){(0,_.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function Yn(){let e=(0,_.useRef)(null);return Jn(e),(0,j.jsxs)(`section`,{id:`about`,ref:e,className:`
+            `,fill:`#6B3F1F`,opacity:`0.15`})]})})]})}var qn=`/apex-tree-service/assets/about-Bfzvmt7n.webp`;function Jn(e){(0,_.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function Yn(){let e=(0,_.useRef)(null);return Jn(e),(0,j.jsxs)(`section`,{id:`about`,ref:e,className:`
 relative
 py-28
 overflow-hidden
@@ -1147,7 +1147,7 @@ items-center\r
 justify-center\r
 text-[#5B4636]\r
 font-medium\r
-`,children:`Loading form...`})})]})})})}var br=(0,_.lazy)(()=>ee(()=>import(`./Privacy-A39cBygE.js`),[])),xr=(0,_.lazy)(()=>ee(()=>import(`./Terms-CoB9Gy9b.js`),[]));function Sr(){return(0,j.jsx)(`div`,{className:`
+`,children:`Loading form...`})})]})})})}var br=(0,_.lazy)(()=>ee(()=>import(`./Privacy-DubRT9cL.js`),[])),xr=(0,_.lazy)(()=>ee(()=>import(`./Terms-7DcgSl-7.js`),[]));function Sr(){return(0,j.jsx)(`div`,{className:`
         min-h-[200px]
         flex
         items-center
