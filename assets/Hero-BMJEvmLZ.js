@@ -1,4 +1,4 @@
-import{n as e,t}from"./index-Om-wVU59.js";e();var n=`/apex-tree-service/assets/hero-BVIOgg5f.webp`,r=t();function i(){return(0,r.jsxs)(`section`,{id:`home`,className:`
+import{n as e,t}from"./index-Dlg-1rx4.js";e();var n=`/apex-tree-service/assets/hero-BVIOgg5f.webp`,r=t();function i(){return(0,r.jsxs)(`section`,{id:`home`,className:`
         relative
         min-h-[900px]
         lg:min-h-screen
