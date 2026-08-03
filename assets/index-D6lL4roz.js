@@ -13,14 +13,12 @@ fixed
 top-6
 left-0
 w-full
-h-[72px]
 z-50
 flex
 justify-center
 `,children:[(0,j.jsx)(`nav`,{className:`
 w-[92%]
 max-w-7xl
-h-[72px]
 bg-[#D6C2A3]/95
 backdrop-blur-xl
 rounded-full
@@ -28,8 +26,8 @@ border
 border-[#2A2118]/20
 shadow-xl
 px-8
+py-4
 `,children:(0,j.jsxs)(`div`,{className:`
-h-full
 flex
 items-center
 justify-between
@@ -47,7 +45,6 @@ w-10
 h-10
 sm:w-11
 sm:h-11
-shrink-0
 rounded-full
 overflow-hidden
 bg-white
@@ -55,14 +52,11 @@ flex
 items-center
 justify-center
 p-1
-`,children:(0,j.jsx)(`img`,{src:Rn,alt:`Apex Tree Service Logo`,width:`40`,height:`40`,loading:`lazy`,decoding:`async`,className:`
+`,children:(0,j.jsx)(`img`,{src:Rn,alt:`Apex Tree Service Logo`,width:`300`,height:`300`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
 w-full
 h-full
 object-contain
-`})}),(0,j.jsxs)(`span`,{children:[`Apex Tree`,(0,j.jsx)(`span`,{className:`
-text-[#4A2F18]
-ml-1
-`,children:`Service`})]})]}),(0,j.jsxs)(`div`,{className:`
+`})}),(0,j.jsxs)(`span`,{children:[`Apex Tree`,(0,j.jsx)(`span`,{className:`text-[#4A2F18] ml-1`,children:`Service`})]})]}),(0,j.jsxs)(`div`,{className:`
 hidden
 lg:flex
 items-center
@@ -292,27 +286,20 @@ font-semibold
             justify-center
             items-center
             w-full
-            h-[480px]
-            sm:h-[520px]
-            lg:h-[560px]
+            h-[600px]
           `,children:[(0,j.jsx)(`div`,{className:`
               absolute
-              w-[85%]
-              h-[85%]
+              w-[90%]
+              h-[90%]
               bg-[#6B3F1F]
               rounded-[45px]
               rotate-6
-            `,"aria-hidden":`true`}),(0,j.jsx)(`img`,{src:Gn,alt:`Apex Tree Service professional tree care`,width:`500`,height:`560`,loading:`eager`,fetchPriority:`high`,decoding:`async`,sizes:`
-              (max-width:768px) 100vw,
-              500px
-            `,className:`
+            `,"aria-hidden":`true`}),(0,j.jsx)(`img`,{src:Gn,alt:`Apex Tree Service professional tree care`,width:`500`,height:`600`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
               relative
               z-10
               w-[500px]
               max-w-full
-              h-[480px]
-              sm:h-[520px]
-              lg:h-[560px]
+              h-[600px]
               object-cover
               rounded-[45px]
               shadow-2xl
@@ -1132,7 +1119,7 @@ items-center\r
 justify-center\r
 text-[#5B4636]\r
 font-medium\r
-`,children:`Loading form...`})})]})})})}var br=(0,_.lazy)(()=>ee(()=>import(`./Privacy-CjsuCU0Z.js`),[])),xr=(0,_.lazy)(()=>ee(()=>import(`./Terms-_D5fQMSL.js`),[]));function Sr(){return(0,j.jsx)(`div`,{className:`
+`,children:`Loading form...`})})]})})})}var br=(0,_.lazy)(()=>ee(()=>import(`./Privacy-BzLhF6CG.js`),[])),xr=(0,_.lazy)(()=>ee(()=>import(`./Terms-B4AHnNlr.js`),[]));function Sr(){return(0,j.jsx)(`div`,{className:`
         min-h-[200px]
         flex
         items-center
