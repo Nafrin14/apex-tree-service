@@ -344,7 +344,7 @@ font-semibold
               rounded-[45px]
               rotate-6
               animate-pulse
-            `}),(0,j.jsx)(`img`,{src:`/apex-tree-service/images/hero.webp`,alt:`Apex Tree Service professional tree care`,width:`400`,height:`480`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
+            `}),(0,j.jsx)(`img`,{src:`/apex-tree-service/images/hero.jpg`,alt:`Apex Tree Service professional tree care`,width:`400`,height:`480`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
               relative
               z-10
               w-full
@@ -480,7 +480,7 @@ relative
 rounded-[28px]
 overflow-hidden
 shadow-2xl
-`,children:[(0,j.jsx)(`img`,{src:`/apex-tree-service/images/about.webp`,alt:`About Apex Tree Service`,width:`600`,height:`450`,loading:`lazy`,decoding:`async`,className:`
+`,children:[(0,j.jsx)(`img`,{src:`/apex-tree-service/images/about.jpg`,alt:`About Apex Tree Service`,width:`600`,height:`450`,loading:`lazy`,decoding:`async`,className:`
 w-full
 h-[420px]
 lg:h-[450px]
