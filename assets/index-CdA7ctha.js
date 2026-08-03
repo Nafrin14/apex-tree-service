@@ -292,21 +292,27 @@ font-semibold
             justify-center
             items-center
             w-full
-            h-[600px]
-            lg:h-[600px]
+            h-[480px]
+            sm:h-[520px]
+            lg:h-[560px]
           `,children:[(0,j.jsx)(`div`,{className:`
               absolute
-              w-[90%]
-              h-[90%]
+              w-[85%]
+              h-[85%]
               bg-[#6B3F1F]
               rounded-[45px]
               rotate-6
-            `,"aria-hidden":`true`}),(0,j.jsx)(`img`,{src:Gn,alt:`Apex Tree Service professional tree care`,width:`500`,height:`600`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
+            `,"aria-hidden":`true`}),(0,j.jsx)(`img`,{src:Gn,alt:`Apex Tree Service professional tree care`,width:`500`,height:`560`,loading:`eager`,fetchPriority:`high`,decoding:`async`,sizes:`
+              (max-width:768px) 100vw,
+              500px
+            `,className:`
               relative
               z-10
               w-[500px]
               max-w-full
-              h-[600px]
+              h-[480px]
+              sm:h-[520px]
+              lg:h-[560px]
               object-cover
               rounded-[45px]
               shadow-2xl
@@ -334,25 +340,7 @@ font-semibold
           w-full
           h-[130px]
           overflow-hidden
-        `,children:(0,j.jsxs)(`svg`,{viewBox:`0 0 1440 130`,className:`w-full h-[130px]`,preserveAspectRatio:`none`,"aria-hidden":`true`,children:[(0,j.jsx)(`path`,{d:`
-              M0 20
-              L1440 95
-              V130
-              H0
-              Z
-            `,fill:`#FFFFFF`}),(0,j.jsx)(`path`,{d:`
-              M0 60
-              L1440 120
-              V130
-              H0
-              Z
-            `,fill:`#B8860B`,opacity:`0.20`}),(0,j.jsx)(`path`,{d:`
-              M0 90
-              L1440 130
-              V130
-              H0
-              Z
-            `,fill:`#6B3F1F`,opacity:`0.15`})]})})]})}var qn=`/apex-tree-service/assets/about-Bfzvmt7n.webp`;function Jn(e){(0,_.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function Yn(){let e=(0,_.useRef)(null);return Jn(e),(0,j.jsxs)(`section`,{id:`about`,ref:e,className:`
+        `,children:(0,j.jsxs)(`svg`,{viewBox:`0 0 1440 130`,className:`w-full h-[130px]`,preserveAspectRatio:`none`,"aria-hidden":`true`,children:[(0,j.jsx)(`path`,{d:`M0 20 L1440 95 V130 H0 Z`,fill:`#FFFFFF`}),(0,j.jsx)(`path`,{d:`M0 60 L1440 120 V130 H0 Z`,fill:`#B8860B`,opacity:`0.20`}),(0,j.jsx)(`path`,{d:`M0 90 L1440 130 V130 H0 Z`,fill:`#6B3F1F`,opacity:`0.15`})]})})]})}var qn=`/apex-tree-service/assets/about-Bfzvmt7n.webp`;function Jn(e){(0,_.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function Yn(){let e=(0,_.useRef)(null);return Jn(e),(0,j.jsxs)(`section`,{id:`about`,ref:e,className:`
 relative
 py-28
 overflow-hidden
@@ -1144,7 +1132,7 @@ items-center\r
 justify-center\r
 text-[#5B4636]\r
 font-medium\r
-`,children:`Loading form...`})})]})})})}var br=(0,_.lazy)(()=>ee(()=>import(`./Privacy-BxkrGbaW.js`),[])),xr=(0,_.lazy)(()=>ee(()=>import(`./Terms-D6V6QFwd.js`),[]));function Sr(){return(0,j.jsx)(`div`,{className:`
+`,children:`Loading form...`})})]})})})}var br=(0,_.lazy)(()=>ee(()=>import(`./Privacy-CjsuCU0Z.js`),[])),xr=(0,_.lazy)(()=>ee(()=>import(`./Terms-_D5fQMSL.js`),[]));function Sr(){return(0,j.jsx)(`div`,{className:`
         min-h-[200px]
         flex
         items-center
