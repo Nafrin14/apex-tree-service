@@ -338,18 +338,18 @@ font-semibold
             animate-[heroRight_1.2s_ease_forwards]
           `,children:[(0,j.jsx)(`div`,{className:`
               absolute
-              w-[90%]
-              h-[90%]
+              w-[85%]
+              h-[85%]
               bg-[#6B3F1F]
               rounded-[45px]
               rotate-6
               animate-pulse
-            `}),(0,j.jsx)(`img`,{src:`/apex-tree-service/images/hero.jpg`,alt:`Apex Tree Service professional tree care`,width:`450`,height:`520`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
+            `}),(0,j.jsx)(`img`,{src:`/apex-tree-service/images/hero.webp`,alt:`Apex Tree Service professional tree care`,width:`400`,height:`480`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
               relative
               z-10
               w-full
-              max-w-[450px]
-              h-[520px]
+              max-w-[400px]
+              h-[480px]
               object-cover
               rounded-[45px]
               shadow-2xl
