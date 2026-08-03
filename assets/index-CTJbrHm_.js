@@ -221,14 +221,14 @@ font-semibold
           w-[330px]
           h-[330px]
           bg-[#B8860B]/20
-        `,style:{clipPath:`polygon(0 0,100% 0,0 100%)`}}),(0,j.jsx)(`div`,{className:`
+        `,style:{clipPath:`polygon(0 0,100% 0,0 100%)`},"aria-hidden":`true`}),(0,j.jsx)(`div`,{className:`
           absolute
           top-0
           right-0
           w-[50%]
           h-full
           bg-[#6B3F1F]/10
-        `,style:{clipPath:`polygon(35% 0,100% 0,100% 100%,0 100%)`}}),(0,j.jsxs)(`div`,{className:`
+        `,style:{clipPath:`polygon(35% 0,100% 0,100% 100%,0 100%)`},"aria-hidden":`true`}),(0,j.jsxs)(`div`,{className:`
           relative
           z-10
           max-w-7xl
@@ -292,8 +292,7 @@ font-semibold
             justify-center
             items-center
             w-full
-            min-h-[600px]
-            lg:h-[600px]
+            h-[600px]
           `,children:[(0,j.jsx)(`div`,{className:`
               absolute
               w-[90%]
@@ -301,10 +300,7 @@ font-semibold
               bg-[#6B3F1F]
               rounded-[45px]
               rotate-6
-            `}),(0,j.jsx)(`img`,{src:Gn,alt:`Apex Tree Service professional tree care`,width:`500`,height:`600`,loading:`eager`,fetchPriority:`high`,decoding:`async`,sizes:`
-              (max-width:768px) 100vw,
-              500px
-            `,className:`
+            `,"aria-hidden":`true`}),(0,j.jsx)(`img`,{src:Gn,alt:`Apex Tree Service professional tree care`,width:`500`,height:`600`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
               relative
               z-10
               w-[500px]
@@ -335,27 +331,9 @@ font-semibold
           bottom-0
           left-0
           w-full
-          overflow-hidden
           h-[130px]
-        `,children:(0,j.jsxs)(`svg`,{viewBox:`0 0 1440 130`,className:`w-full h-[130px]`,preserveAspectRatio:`none`,"aria-hidden":`true`,children:[(0,j.jsx)(`path`,{d:`
-              M0 20
-              L1440 95
-              V130
-              H0
-              Z
-            `,fill:`#FFFFFF`}),(0,j.jsx)(`path`,{d:`
-              M0 60
-              L1440 120
-              V130
-              H0
-              Z
-            `,fill:`#B8860B`,opacity:`0.20`}),(0,j.jsx)(`path`,{d:`
-              M0 90
-              L1440 130
-              V130
-              H0
-              Z
-            `,fill:`#6B3F1F`,opacity:`0.15`})]})})]})}var qn=`/apex-tree-service/assets/about-Bfzvmt7n.webp`;function Jn(e){(0,_.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function Yn(){let e=(0,_.useRef)(null);return Jn(e),(0,j.jsxs)(`section`,{id:`about`,ref:e,className:`
+          overflow-hidden
+        `,children:(0,j.jsxs)(`svg`,{viewBox:`0 0 1440 130`,className:`w-full h-[130px]`,preserveAspectRatio:`none`,"aria-hidden":`true`,children:[(0,j.jsx)(`path`,{d:`M0 20 L1440 95 V130 H0 Z`,fill:`#FFFFFF`}),(0,j.jsx)(`path`,{d:`M0 60 L1440 120 V130 H0 Z`,fill:`#B8860B`,opacity:`0.20`}),(0,j.jsx)(`path`,{d:`M0 90 L1440 130 V130 H0 Z`,fill:`#6B3F1F`,opacity:`0.15`})]})})]})}var qn=`/apex-tree-service/assets/about-Bfzvmt7n.webp`;function Jn(e){(0,_.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function Yn(){let e=(0,_.useRef)(null);return Jn(e),(0,j.jsxs)(`section`,{id:`about`,ref:e,className:`
 relative
 py-28
 overflow-hidden
@@ -1147,7 +1125,7 @@ items-center\r
 justify-center\r
 text-[#5B4636]\r
 font-medium\r
-`,children:`Loading form...`})})]})})})}var br=(0,_.lazy)(()=>ee(()=>import(`./Privacy-DubRT9cL.js`),[])),xr=(0,_.lazy)(()=>ee(()=>import(`./Terms-7DcgSl-7.js`),[]));function Sr(){return(0,j.jsx)(`div`,{className:`
+`,children:`Loading form...`})})]})})})}var br=(0,_.lazy)(()=>ee(()=>import(`./Privacy-Bv7JRDKy.js`),[])),xr=(0,_.lazy)(()=>ee(()=>import(`./Terms-emjJJJTn.js`),[]));function Sr(){return(0,j.jsx)(`div`,{className:`
         min-h-[200px]
         flex
         items-center
