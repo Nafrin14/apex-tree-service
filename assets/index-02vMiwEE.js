@@ -34,22 +34,25 @@ justify-between
 `,children:[(0,j.jsxs)(`button`,{type:`button`,"aria-label":`Go to Apex Tree Service home page`,onClick:()=>s(`home`),className:`
 flex
 items-center
-gap-3
+gap-2
 text-[#2A2118]
-text-lg
-sm:text-xl
+text-base
+sm:text-lg
 font-bold
 whitespace-nowrap
 `,children:[(0,j.jsx)(`div`,{className:`
-w-11
-h-11
+w-9
+h-9
+sm:w-10
+sm:h-10
 rounded-full
 overflow-hidden
 bg-white
 flex
 items-center
 justify-center
-`,children:(0,j.jsx)(`img`,{src:`/apex-tree-service/images/logo1.webp`,alt:`Apex Tree Service Logo`,className:`
+p-1
+`,children:(0,j.jsx)(`img`,{src:`/apex-tree-service/images/logo1.webp`,alt:`Apex Tree Service Logo`,width:`40`,height:`40`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
 w-full
 h-full
 object-contain
@@ -159,15 +162,18 @@ font-semibold
                 text-2xl\r
                 font-bold\r
               `,children:[(0,j.jsx)(`div`,{className:`\r
-                  w-12\r
-                  h-12\r
+                  w-10\r
+                  h-10\r
+                  sm:w-11\r
+                  sm:h-11\r
                   rounded-xl\r
                   overflow-hidden\r
                   bg-white\r
                   flex\r
                   items-center\r
                   justify-center\r
-                `,children:(0,j.jsx)(`img`,{src:`/apex-tree-service/images/logo1.webp`,alt:`Apex Tree Service Logo`,className:`\r
+                  p-1\r
+                `,children:(0,j.jsx)(`img`,{src:`/apex-tree-service/images/logo1.webp`,alt:`Apex Tree Service Logo`,width:`44`,height:`44`,loading:`lazy`,decoding:`async`,className:`\r
                     w-full\r
                     h-full\r
                     object-contain\r
@@ -192,7 +198,7 @@ font-semibold
                 font-bold\r
                 mb-5\r
               `,children:`Services`}),(0,j.jsxs)(`ul`,{className:`\r
-                space-y-3\r
+                space-3\r
                 text-gray-300\r
                 text-sm\r
               `,children:[(0,j.jsx)(`li`,{children:`Tree Removal`}),(0,j.jsx)(`li`,{children:`Tree Trimming`}),(0,j.jsx)(`li`,{children:`Tree Pruning`}),(0,j.jsx)(`li`,{children:`Emergency Tree Service`}),(0,j.jsx)(`li`,{children:`Land Clearing`})]})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`h3`,{className:`\r
