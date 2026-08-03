@@ -1,4 +1,4 @@
-import{n as e,t}from"./index-DXIqYjib.js";e();var n=`/apex-tree-service/assets/hero-BVIOgg5f.webp`,r=t();function i(){return(0,r.jsxs)(`section`,{id:`home`,className:`
+import{n as e,t}from"./index-geKEHlGa.js";e();var n=`/apex-tree-service/assets/hero-BVIOgg5f.webp`,r=t();function i(){return(0,r.jsxs)(`section`,{id:`home`,className:`
         relative
         min-h-screen
         bg-[#F5EFE6]
