@@ -1,4 +1,4 @@
-import{n as e,t}from"./index-BBQ-0Jto.js";e();var n=`/apex-tree-service/assets/hero-VFws00YF.webp`,r=t();function i(){return(0,r.jsxs)(`section`,{id:`home`,className:`
+import{n as e,t}from"./index-D10UvcS9.js";e();var n=`/apex-tree-service/assets/hero-BVIOgg5f.webp`,r=t();function i(){return(0,r.jsxs)(`section`,{id:`home`,className:`
         relative
         min-h-screen
         bg-[#F5EFE6]
@@ -105,18 +105,20 @@ import{n as e,t}from"./index-BBQ-0Jto.js";e();var n=`/apex-tree-service/assets/h
             animate-[heroRight_1.2s_ease_forwards]
           `,children:[(0,r.jsx)(`div`,{className:`
               absolute
-              w-[85%]
-              h-[85%]
+              w-[90%]
+              h-[90%]
               bg-[#6B3F1F]
               rounded-[45px]
               rotate-6
               animate-pulse
-            `}),(0,r.jsx)(`img`,{src:n,alt:`Apex Tree Service professional tree care`,width:`400`,height:`480`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
+            `}),(0,r.jsx)(`img`,{src:n,alt:`Apex Tree Service professional tree care`,width:`500`,height:`600`,loading:`eager`,fetchPriority:`high`,decoding:`async`,sizes:`(max-width:768px) 100vw, 500px`,className:`
               relative
               z-10
               w-full
-              max-w-[400px]
-              h-[480px]
+              max-w-[500px]
+              h-[450px]
+              sm:h-[520px]
+              lg:h-[600px]
               object-cover
               rounded-[45px]
               shadow-2xl

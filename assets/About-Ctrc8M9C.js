@@ -1,4 +1,4 @@
-import{n as e,r as t,t as n}from"./index-BBQ-0Jto.js";import{t as r}from"./about-BcDemTmH.js";var i=t(e(),1),a=n();function o(e){(0,i.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function s(){let e=(0,i.useRef)(null);return o(e),(0,a.jsxs)(`section`,{id:`about`,ref:e,className:`
+import{n as e,r as t,t as n}from"./index-D10UvcS9.js";import{t as r}from"./about-BTaSlNHS.js";var i=t(e(),1),a=n();function o(e){(0,i.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function s(){let e=(0,i.useRef)(null);return o(e),(0,a.jsxs)(`section`,{id:`about`,ref:e,className:`
 relative
 py-28
 overflow-hidden
@@ -23,10 +23,11 @@ items-center
 `,children:[(0,a.jsxs)(`div`,{className:`
 relative
 sr-l
+max-w-[450px]
 `,children:[(0,a.jsx)(`div`,{className:`
 absolute
--bottom-6
--right-6
+bottom-[-24px]
+right-[-24px]
 w-full
 h-full
 rounded-[32px]
@@ -37,12 +38,14 @@ relative
 rounded-[28px]
 overflow-hidden
 shadow-2xl
-`,children:[(0,a.jsx)(`img`,{src:r,alt:`About Apex Tree Service`,width:`600`,height:`450`,loading:`lazy`,decoding:`async`,className:`
+`,children:[(0,a.jsx)(`img`,{src:r,alt:`About Apex Tree Service`,width:`450`,height:`450`,loading:`lazy`,decoding:`async`,sizes:`(max-width:768px) 100vw,450px`,className:`
 w-full
-h-[420px]
+max-w-[450px]
+h-[380px]
 lg:h-[450px]
 object-cover
 block
+rounded-[28px]
 `}),(0,a.jsx)(`div`,{className:`
 absolute
 bottom-0
@@ -51,8 +54,8 @@ right-0
 h-24
 `,style:{background:`linear-gradient(to top,rgba(26,60,46,0.55),transparent)`}})]}),(0,a.jsxs)(`div`,{className:`
 absolute
--top-6
--left-6
+top-[-24px]
+left-[-24px]
 z-10
 bg-gradient-to-br
 from-[#1a3c2e]
@@ -157,11 +160,14 @@ transform:none;
 
 
 
+
 .sr-l{
 
 transform:translateX(-60px);
 
 }
+
+
 
 
 
@@ -173,6 +179,8 @@ transform:translateX(60px);
 
 
 
+
+
 .sr-l.on,
 .sr-r.on{
 
@@ -180,6 +188,7 @@ opacity:1;
 transform:translateX(0);
 
 }
+
 
 
 `})]})}export{s as default};
