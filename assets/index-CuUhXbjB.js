@@ -480,9 +480,10 @@ relative
 rounded-[28px]
 overflow-hidden
 shadow-2xl
-`,children:[(0,j.jsx)(`img`,{src:`/apex-tree-service/images/about.jpg`,alt:`About Apex Tree Service`,className:`
+`,children:[(0,j.jsx)(`img`,{src:`/apex-tree-service/images/about.webp`,alt:`About Apex Tree Service`,width:`600`,height:`450`,loading:`lazy`,decoding:`async`,className:`
 w-full
-h-[500px]
+h-[420px]
+lg:h-[450px]
 object-cover
 block
 `}),(0,j.jsx)(`div`,{className:`
@@ -542,87 +543,95 @@ max-w-lg
 text-[#5a6e63]
 leading-relaxed
 `,children:`Apex Tree Service provides professional tree care with safety, quality, and customer satisfaction as our priority. Our experienced team handles tree removal, trimming, pruning and emergency services.`}),(0,j.jsx)(`div`,{className:`
-grid
-sm:grid-cols-2
-gap-4
-mt-8
-`,children:[{icon:`🌿`,title:`Expert Arborists`,text:`Experienced professionals for safe tree care.`},{icon:`🛡️`,title:`Safety First`,text:`Professional standards on every project.`},{icon:`⚡`,title:`24/7 Emergency`,text:`Fast response for urgent situations.`},{icon:`✅`,title:`Clean Results`,text:`Quality work with clean finishing.`}].map(e=>(0,j.jsxs)(`div`,{className:`
-bg-white
-rounded-2xl
-p-5
-border
-border-[#1a3c2e]/10
-shadow-sm
-hover:-translate-y-2
-transition
-`,children:[(0,j.jsx)(`div`,{className:`text-2xl`,children:e.icon}),(0,j.jsx)(`h3`,{className:`
-mt-3
-font-bold
-text-[#1a3c2e]
-`,children:e.title}),(0,j.jsx)(`p`,{className:`
-text-sm
-text-[#7a8e83]
-mt-1
-`,children:e.text})]},e.title))}),(0,j.jsx)(`a`,{href:`#services`,className:`
-inline-flex
-mt-10
-items-center
-gap-3
-bg-[#1a3c2e]
-text-white
-px-8
-py-4
-rounded-full
-text-sm
-font-semibold
-hover:bg-[#d4a843]
-transition
-`,children:`Explore Services →`})]})]}),(0,j.jsx)(`style`,{children:`
+          grid
+          sm:grid-cols-2
+          gap-4
+          mt-8
+        `,children:[{icon:`🌿`,title:`Expert Arborists`,text:`Experienced professionals for safe tree care.`},{icon:`🛡️`,title:`Safety First`,text:`Professional standards on every project.`},{icon:`⚡`,title:`24/7 Emergency`,text:`Fast response for urgent situations.`},{icon:`✅`,title:`Clean Results`,text:`Quality work with clean finishing.`}].map(e=>(0,j.jsxs)(`div`,{className:`
+      bg-white
+      rounded-2xl
+      p-5
+      border
+      border-[#1a3c2e]/10
+      shadow-sm
+      hover:-translate-y-2
+      transition
+      `,children:[(0,j.jsx)(`div`,{className:`text-2xl`,children:e.icon}),(0,j.jsx)(`h3`,{className:`
+      mt-3
+      font-bold
+      text-[#1a3c2e]
+      `,children:e.title}),(0,j.jsx)(`p`,{className:`
+      text-sm
+      text-[#7a8e83]
+      mt-1
+      `,children:e.text})]},e.title))}),(0,j.jsx)(`a`,{href:`#services`,className:`
+      inline-flex
+      mt-10
+      items-center
+      gap-3
+      bg-[#1a3c2e]
+      text-white
+      px-8
+      py-4
+      rounded-full
+      text-sm
+      font-semibold
+      hover:bg-[#d4a843]
+      transition
+      `,children:`Explore Services →`})]})]}),(0,j.jsx)(`style`,{children:`
 
-.sr,
-.sr-l,
-.sr-r{
+      .sr,
+      .sr-l,
+      .sr-r{
 
-opacity:0;
-transition:1s ease;
+      opacity:0;
+      transition:1s ease;
 
-}
-
-
-.sr.on{
-
-opacity:1;
-transform:none;
-
-}
+      }
 
 
 
-.sr-l{
+      .sr.on{
 
-transform:translateX(-60px);
+      opacity:1;
+      transform:none;
 
-}
-
-
-.sr-r{
-
-transform:translateX(60px);
-
-}
+      }
 
 
 
-.sr-l.on,
-.sr-r.on{
-
-opacity:1;
-transform:translateX(0);
-
-}
 
 
-`})]})}var Kn=[{title:`Tree Removal`,description:`Safe and professional removal for damaged or hazardous trees.`,icon:`🌳`},{title:`Tree Trimming`,description:`Improve tree health and appearance with expert trimming.`,icon:`✂️`},{title:`Tree Pruning`,description:`Maintain healthy growth with precise pruning techniques.`,icon:`🍃`},{title:`Emergency Service`,description:`Fast response for storm damage and dangerous trees.`,icon:`⚡`},{title:`Stump Removal`,description:`Complete stump removal to restore your outdoor space.`,icon:`🪵`},{title:`Land Clearing`,description:`Professional clearing solutions for properties.`,icon:`🌿`}];function qn(){return(0,j.jsxs)(`section`,{id:`services`,className:`
+      .sr-l{
+
+      transform:translateX(-60px);
+
+      }
+
+
+
+
+
+      .sr-r{
+
+      transform:translateX(60px);
+
+      }
+
+
+
+
+
+      .sr-l.on,
+      .sr-r.on{
+
+      opacity:1;
+      transform:translateX(0);
+
+      }
+
+
+      `})]})}var Kn=[{title:`Tree Removal`,description:`Safe and professional removal for damaged or hazardous trees.`,icon:`🌳`},{title:`Tree Trimming`,description:`Improve tree health and appearance with expert trimming.`,icon:`✂️`},{title:`Tree Pruning`,description:`Maintain healthy growth with precise pruning techniques.`,icon:`🍃`},{title:`Emergency Service`,description:`Fast response for storm damage and dangerous trees.`,icon:`⚡`},{title:`Stump Removal`,description:`Complete stump removal to restore your outdoor space.`,icon:`🪵`},{title:`Land Clearing`,description:`Professional clearing solutions for properties.`,icon:`🌿`}];function qn(){return(0,j.jsxs)(`section`,{id:`services`,className:`
 relative
 min-h-screen
 bg-white
