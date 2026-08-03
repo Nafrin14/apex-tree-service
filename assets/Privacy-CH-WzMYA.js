@@ -1,4 +1,4 @@
-import{t as e}from"./index-Cvr4rz2b.js";var t=e();function n(){return(0,t.jsx)(`section`,{className:`\r
+import{t as e}from"./index-BBQ-0Jto.js";var t=e();function n(){return(0,t.jsx)(`section`,{className:`\r
         min-h-screen\r
         bg-[#F5EFE6]\r
         py-32\r
