@@ -231,7 +231,7 @@ font-semibold
               `,children:`Privacy Policy`}),(0,j.jsx)(`a`,{href:`/terms`,className:`\r
                 hover:text-[#D8C3A5]\r
                 transition\r
-              `,children:`Terms & Conditions`})]})]})]})]})}var Wn=`/apex-tree-service/assets/hero-DLgQ4hL8.jpg`;function Gn(){return(0,j.jsxs)(`section`,{id:`home`,className:`
+              `,children:`Terms & Conditions`})]})]})]})]})}var Wn=`/apex-tree-service/assets/hero-VFws00YF.webp`;function Gn(){return(0,j.jsxs)(`section`,{id:`home`,className:`
         relative
         min-h-screen
         bg-[#F5EFE6]
@@ -441,7 +441,7 @@ font-semibold
 
         }
 
-      `})]})}var Kn=`/apex-tree-service/assets/about-CfCpHQYZ.jpg`;function qn(e){(0,x.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function Jn(){let e=(0,x.useRef)(null);return qn(e),(0,j.jsxs)(`section`,{id:`about`,ref:e,className:`
+      `})]})}var Kn=`/apex-tree-service/assets/about-F-1G7AKo.webp`;function qn(e){(0,x.useEffect)(()=>{let t=e.current?.querySelectorAll(`.sr,.sr-l,.sr-r`),n=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add(`on`)})},{threshold:.12});return t?.forEach(e=>n.observe(e)),()=>{t?.forEach(e=>n.unobserve(e))}},[e])}function Jn(){let e=(0,x.useRef)(null);return qn(e),(0,j.jsxs)(`section`,{id:`about`,ref:e,className:`
 relative
 py-28
 overflow-hidden
@@ -543,96 +543,89 @@ max-w-lg
 text-[#5a6e63]
 leading-relaxed
 `,children:`Apex Tree Service provides professional tree care with safety, quality, and customer satisfaction as our priority. Our experienced team handles tree removal, trimming, pruning and emergency services.`}),(0,j.jsx)(`div`,{className:`
-          grid
-          sm:grid-cols-2
-          gap-4
-          mt-8
-        `,children:[{icon:`🌿`,title:`Expert Arborists`,text:`Experienced professionals for safe tree care.`},{icon:`🛡️`,title:`Safety First`,text:`Professional standards on every project.`},{icon:`⚡`,title:`24/7 Emergency`,text:`Fast response for urgent situations.`},{icon:`✅`,title:`Clean Results`,text:`Quality work with clean finishing.`}].map(e=>(0,j.jsxs)(`div`,{className:`
-      bg-white
-      rounded-2xl
-      p-5
-      border
-      border-[#1a3c2e]/10
-      shadow-sm
-      hover:-translate-y-2
-      transition
-      `,children:[(0,j.jsx)(`div`,{className:`text-2xl`,children:e.icon}),(0,j.jsx)(`h3`,{className:`
-      mt-3
-      font-bold
-      text-[#1a3c2e]
-      `,children:e.title}),(0,j.jsx)(`p`,{className:`
-      text-sm
-      text-[#7a8e83]
-      mt-1
-      `,children:e.text})]},e.title))}),(0,j.jsx)(`a`,{href:`#services`,className:`
-      inline-flex
-      mt-10
-      items-center
-      gap-3
-      bg-[#1a3c2e]
-      text-white
-      px-8
-      py-4
-      rounded-full
-      text-sm
-      font-semibold
-      hover:bg-[#d4a843]
-      transition
-      `,children:`Explore Services →`})]})]}),(0,j.jsx)(`style`,{children:`
+grid
+sm:grid-cols-2
+gap-4
+mt-8
+`,children:[{icon:`🌿`,title:`Expert Arborists`,text:`Experienced professionals for safe tree care.`},{icon:`🛡️`,title:`Safety First`,text:`Professional standards on every project.`},{icon:`⚡`,title:`24/7 Emergency`,text:`Fast response for urgent situations.`},{icon:`✅`,title:`Clean Results`,text:`Quality work with clean finishing.`}].map(e=>(0,j.jsxs)(`div`,{className:`
+bg-white
+rounded-2xl
+p-5
+border
+border-[#1a3c2e]/10
+shadow-sm
+hover:-translate-y-2
+transition
+`,children:[(0,j.jsx)(`div`,{className:`text-2xl`,children:e.icon}),(0,j.jsx)(`h3`,{className:`
+mt-3
+font-bold
+text-[#1a3c2e]
+`,children:e.title}),(0,j.jsx)(`p`,{className:`
+text-sm
+text-[#7a8e83]
+mt-1
+`,children:e.text})]},e.title))}),(0,j.jsx)(`a`,{href:`#services`,className:`
+inline-flex
+mt-10
+items-center
+gap-3
+bg-[#1a3c2e]
+text-white
+px-8
+py-4
+rounded-full
+text-sm
+font-semibold
+hover:bg-[#d4a843]
+transition
+`,children:`Explore Services →`})]})]}),(0,j.jsx)(`style`,{children:`
 
-      .sr,
-      .sr-l,
-      .sr-r{
+.sr,
+.sr-l,
+.sr-r{
 
-      opacity:0;
-      transition:1s ease;
+opacity:0;
+transition:1s ease;
 
-      }
-
-
-
-      .sr.on{
-
-      opacity:1;
-      transform:none;
-
-      }
+}
 
 
 
+.sr.on{
 
+opacity:1;
+transform:none;
 
-      .sr-l{
-
-      transform:translateX(-60px);
-
-      }
-
-
+}
 
 
 
+.sr-l{
 
-      .sr-r{
+transform:translateX(-60px);
 
-      transform:translateX(60px);
-
-      }
-
+}
 
 
 
+.sr-r{
 
-      .sr-l.on,
-      .sr-r.on{
+transform:translateX(60px);
 
-      opacity:1;
-      transform:translateX(0);
-
-      }
+}
 
 
-      `})]})}var Yn=[{title:`Tree Removal`,description:`Safe and professional removal for damaged or hazardous trees.`,icon:`🌳`},{title:`Tree Trimming`,description:`Improve tree health and appearance with expert trimming.`,icon:`✂️`},{title:`Tree Pruning`,description:`Maintain healthy growth with precise pruning techniques.`,icon:`🍃`},{title:`Emergency Service`,description:`Fast response for storm damage and dangerous trees.`,icon:`⚡`},{title:`Stump Removal`,description:`Complete stump removal to restore your outdoor space.`,icon:`🪵`},{title:`Land Clearing`,description:`Professional clearing solutions for properties.`,icon:`🌿`}];function Xn(){return(0,j.jsxs)(`section`,{id:`services`,className:`
+
+.sr-l.on,
+.sr-r.on{
+
+opacity:1;
+transform:translateX(0);
+
+}
+
+
+`})]})}var Yn=[{title:`Tree Removal`,description:`Safe and professional removal for damaged or hazardous trees.`,icon:`🌳`},{title:`Tree Trimming`,description:`Improve tree health and appearance with expert trimming.`,icon:`✂️`},{title:`Tree Pruning`,description:`Maintain healthy growth with precise pruning techniques.`,icon:`🍃`},{title:`Emergency Service`,description:`Fast response for storm damage and dangerous trees.`,icon:`⚡`},{title:`Stump Removal`,description:`Complete stump removal to restore your outdoor space.`,icon:`🪵`},{title:`Land Clearing`,description:`Professional clearing solutions for properties.`,icon:`🌿`}];function Xn(){return(0,j.jsxs)(`section`,{id:`services`,className:`
 relative
 min-h-screen
 bg-white
