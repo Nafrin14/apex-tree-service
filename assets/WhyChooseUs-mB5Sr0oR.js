@@ -1,4 +1,4 @@
-import{n as e,t}from"./index-Dlg-1rx4.js";import{t as n}from"./about-BTaSlNHS.js";e();var r=t(),i=[{title:`Experienced Team`,description:`Skilled professionals providing safe and reliable tree care.`,icon:`👷`},{title:`Safety First`,description:`Professional standards to protect your property.`,icon:`🛡️`},{title:`24/7 Emergency`,description:`Fast response for urgent tree situations.`,icon:`⚡`},{title:`Quality Service`,description:`Reliable workmanship with attention to detail.`,icon:`⭐`}];function a(){return(0,r.jsxs)(`section`,{id:`why-choose-us`,className:`\r
+import{n as e,t}from"./index-DZVhjVkf.js";import{t as n}from"./about-BTaSlNHS.js";e();var r=t(),i=[{title:`Experienced Team`,description:`Skilled professionals providing safe and reliable tree care.`,icon:`👷`},{title:`Safety First`,description:`Professional standards to protect your property.`,icon:`🛡️`},{title:`24/7 Emergency`,description:`Fast response for urgent tree situations.`,icon:`⚡`},{title:`Quality Service`,description:`Reliable workmanship with attention to detail.`,icon:`⭐`}];function a(){return(0,r.jsxs)(`section`,{id:`why-choose-us`,className:`\r
 relative\r
 min-h-screen\r
 bg-[#2A2118]\r
