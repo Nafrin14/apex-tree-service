@@ -1,0 +1,1 @@
+var e=`/apex-tree-service/assets/about-F-1G7AKo.webp`;export{e as t};
