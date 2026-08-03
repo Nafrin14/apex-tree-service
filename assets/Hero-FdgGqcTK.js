@@ -1,7 +1,7 @@
-import{n as e,t}from"./index-DZVhjVkf.js";e();var n=`/apex-tree-service/assets/hero-BVIOgg5f.webp`,r=t();function i(){return(0,r.jsxs)(`section`,{id:`home`,className:`
+import{n as e,t}from"./index-BHkGR9g2.js";e();var n=`/apex-tree-service/assets/hero-BVIOgg5f.webp`,r=t();function i(){return(0,r.jsxs)(`section`,{id:`home`,className:`
         relative
-        min-h-[900px]
-        lg:min-h-screen
+        min-h-screen
+        lg:min-h-[850px]
         bg-[#F5EFE6]
         overflow-hidden
         flex
@@ -34,10 +34,7 @@ import{n as e,t}from"./index-DZVhjVkf.js";e();var n=`/apex-tree-service/assets/h
           lg:grid-cols-2
           gap-12
           items-center
-        `,children:[(0,r.jsxs)(`div`,{className:`
-            opacity-0
-            animate-[heroLeft_1s_ease_forwards]
-          `,children:[(0,r.jsx)(`p`,{className:`
+        `,children:[(0,r.jsxs)(`div`,{children:[(0,r.jsx)(`p`,{className:`
               text-xs
               uppercase
               tracking-[5px]
@@ -88,9 +85,9 @@ import{n as e,t}from"./index-DZVhjVkf.js";e();var n=`/apex-tree-service/assets/h
             flex
             justify-center
             items-center
+            w-full
             min-h-[600px]
-            opacity-0
-            animate-[heroRight_1.2s_ease_forwards]
+            lg:h-[600px]
           `,children:[(0,r.jsx)(`div`,{className:`
               absolute
               w-[90%]
@@ -98,13 +95,15 @@ import{n as e,t}from"./index-DZVhjVkf.js";e();var n=`/apex-tree-service/assets/h
               bg-[#6B3F1F]
               rounded-[45px]
               rotate-6
-              animate-pulse
-            `}),(0,r.jsx)(`img`,{src:n,alt:`Apex Tree Service professional tree care`,width:`500`,height:`600`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`
+            `}),(0,r.jsx)(`img`,{src:n,alt:`Apex Tree Service professional tree care`,width:`500`,height:`600`,loading:`eager`,fetchPriority:`high`,decoding:`async`,sizes:`
+              (max-width:768px) 100vw,
+              500px
+            `,className:`
               relative
               z-10
               w-[500px]
               max-w-full
-              aspect-[5/6]
+              h-[600px]
               object-cover
               rounded-[45px]
               shadow-2xl
@@ -118,7 +117,6 @@ import{n as e,t}from"./index-DZVhjVkf.js";e();var n=`/apex-tree-service/assets/h
               px-7
               py-5
               shadow-xl
-              animate-[floatCard_4s_infinite]
             `,children:[(0,r.jsx)(`p`,{className:`
                 text-3xl
                 font-bold
@@ -133,7 +131,7 @@ import{n as e,t}from"./index-DZVhjVkf.js";e();var n=`/apex-tree-service/assets/h
           w-full
           overflow-hidden
           h-[130px]
-        `,children:(0,r.jsxs)(`svg`,{viewBox:`0 0 1440 130`,className:`w-full h-[130px]`,preserveAspectRatio:`none`,children:[(0,r.jsx)(`path`,{d:`
+        `,children:(0,r.jsxs)(`svg`,{viewBox:`0 0 1440 130`,className:`w-full h-[130px]`,preserveAspectRatio:`none`,"aria-hidden":`true`,children:[(0,r.jsx)(`path`,{d:`
               M0 20
               L1440 95
               V130
@@ -151,70 +149,4 @@ import{n as e,t}from"./index-DZVhjVkf.js";e();var n=`/apex-tree-service/assets/h
               V130
               H0
               Z
-            `,fill:`#6B3F1F`,opacity:`0.15`})]})}),(0,r.jsx)(`style`,{children:`
-
-        @keyframes heroLeft {
-
-          from {
-
-            opacity:0;
-            transform:translateX(-60px);
-
-          }
-
-
-          to {
-
-            opacity:1;
-            transform:translateX(0);
-
-          }
-
-        }
-
-
-
-
-
-        @keyframes heroRight {
-
-          from {
-
-            opacity:0;
-            transform:translateX(60px);
-
-          }
-
-
-          to {
-
-            opacity:1;
-            transform:translateX(0);
-
-          }
-
-        }
-
-
-
-
-
-        @keyframes floatCard {
-
-          0%,100% {
-
-            transform:translateY(0);
-
-          }
-
-
-          50% {
-
-            transform:translateY(-12px);
-
-          }
-
-        }
-
-
-      `})]})}export{i as default};
+            `,fill:`#6B3F1F`,opacity:`0.15`})]})})]})}export{i as default};

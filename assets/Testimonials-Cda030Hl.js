@@ -1,4 +1,4 @@
-import{n as e,t}from"./index-DZVhjVkf.js";e();var n=t(),r=[{name:`Michael Johnson`,location:`Syracuse, NY`,review:`Excellent tree service! The team was professional, safe and completed the work perfectly.`},{name:`Sarah Williams`,location:`Rochester, NY`,review:`Very reliable service. They removed a dangerous tree quickly and cleaned everything.`},{name:`David Brown`,location:`New York`,review:`Great experience from start to finish. Highly recommend their tree care services.`}];function i(){return(0,n.jsxs)(`section`,{id:`reviews`,className:`\r
+import{n as e,t}from"./index-BHkGR9g2.js";e();var n=t(),r=[{name:`Michael Johnson`,location:`Syracuse, NY`,review:`Excellent tree service! The team was professional, safe and completed the work perfectly.`},{name:`Sarah Williams`,location:`Rochester, NY`,review:`Very reliable service. They removed a dangerous tree quickly and cleaned everything.`},{name:`David Brown`,location:`New York`,review:`Great experience from start to finish. Highly recommend their tree care services.`}];function i(){return(0,n.jsxs)(`section`,{id:`reviews`,className:`\r
 relative\r
 min-h-screen\r
 bg-[#F5EFE6]\r
